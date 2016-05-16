@@ -18,7 +18,13 @@ mkdir ~/domains/<folder name eg, example.com>/{releases,shared}
 
 ### Install Composer and dependencies
 
-In the sites root folder. Run the following commands to install Composer:
+Change into the projects root directory:
+
+```
+cd ~/domains/<folder name eg, example.com>/
+```
+
+Run the following commands to install Composer:
 
 ```
 curl -s https://getcomposer.org/installer | php -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar
