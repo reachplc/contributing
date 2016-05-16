@@ -6,7 +6,7 @@
 
 ### Give Codeship access to this site
 
-Add Codeship public key to `.ssh/authorized_keys`
+Add Codeship public key to `vim ~/.ssh/authorized_keys`. *Adding a heading to the key will help identify which key relates to a project.*
 
 ### Create deployment folders
 
