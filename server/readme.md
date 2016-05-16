@@ -10,10 +10,10 @@ Add Codeship public key to `vim ~/.ssh/authorized_keys`. *Adding a heading to th
 
 ### Create deployment folders
 
-Create `/releases` and `/shared` directories at the root level of this site (the same level above the `/html` folder).
+Create `/releases`, `/shared` and `/config` directories at the root level of this site (the same level above the `/html` folder).
 
 ```
-mkdir ~/domains/<folder name eg, example.com>/{releases,shared}
+mkdir ~/domains/<folder name eg, example.com>/{releases,shared,config}
 ```
 
 Inside the `/shared/` folder you will need to create any folder that will be shared across all releases. For a WordPress project these may be `/shared/media/` and `/shared/languages/`.
@@ -40,8 +40,12 @@ This allows us to set custom global variables for things like database usernames
 php -d memory_limit=512M -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar composer.phar require vlucas/phpdotenv
 ```
 
+### Configure the project
+
 Create your `.env` file containing any global variables you might need such as `ENV=production`.
 
 ```
 touch .env
 ```
+
+Add any configuration files to the `/config/` folder needed for the projust. For a WordPress project these might be `/config/application.php`
