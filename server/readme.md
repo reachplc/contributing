@@ -16,6 +16,8 @@ Create `/releases` and `/shared` directories at the root level of this site (the
 mkdir ~/domains/<folder name eg, example.com>/{releases,shared}
 ```
 
+Inside the `/shared/` folder you will need to create any folder that will be shared across all releases. For a WordPress project these may be `/shared/media/` and `/shared/languages/`.
+
 ### Install Composer and dependencies
 
 Change into the projects root directory:
