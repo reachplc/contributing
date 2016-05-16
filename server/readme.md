@@ -33,3 +33,7 @@ php -d memory_limit=512M -d allow_url_fopen=1 -d suhosin.executor.include.whitel
 ```
 
 Create your `.env` file containing any global variables you might need such as `ENV=production`.
+
+```
+touch .env
+```
