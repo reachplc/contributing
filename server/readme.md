@@ -12,6 +12,10 @@ Add Codeship public key to `vim ~/.ssh/authorized_keys`. *Adding a heading to th
 
 Create `/releases` and `/shared` directories at the root level of this site (the same level above the `/html` folder).
 
+```
+mkdir ~/domains/<folder name eg, example.com>/{releases,shared}
+```
+
 ### Install Composer and dependencies
 
 In the sites root folder. Run the following commands to install Composer:
