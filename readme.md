@@ -1,5 +1,5 @@
 # TMC Contributing Guidelines
-Version: 0.1.0
+Version: 0.2.0
 
 > All code in any code-base should look like a single person typed it, no matter how many people contributed. - [idiomatic.js](https://github.com/rwldrn/idiomatic.js/)
 
