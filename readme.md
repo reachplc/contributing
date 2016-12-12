@@ -27,7 +27,8 @@ Version: 0.1.0
 	- [Work Flow](git/readme.md#work-flow)
 	- [Commit Messages](git/readme.md#commit-messages)
 	- [Branching/Merging Conventions](git/readme.md#branchingmerging-conventions)
-6. [Issue Reports](issues/readme.md)
+6. [Server](server/readme.md)
+7. [Issue Reports](issues/readme.md)
 	- [Introduction](issues/readme.md#introduction)
 
 
